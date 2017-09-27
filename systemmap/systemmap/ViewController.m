@@ -5,7 +5,19 @@
 //  Created by anan on 2017/7/4.
 //  Copyright © 2017年 Plan. All rights reserved.
 //
-
+/* lzy170926注:
+ 开始看看系统的地图和api，可以在地图上做什么事情。
+ 
+ 1、先去回顾一下印象笔记。过了一下：0923-day23-团购7-地图
+ anotation,mpview，anotationView。
+ regin：coordinate2DMake，span
+ 
+ 2、看了MapKit.framework 和CoreLocation.framework总共有这些个东西：
+见 Header.h
+ 
+ 3、api头文件有了，看看demo和guide有哪些？
+ 
+ */
 #import "ViewController.h"
 #import "Header.h"
 #import <CoreLocation/CoreLocation.h>
@@ -531,12 +543,6 @@
         }];
     }];
     
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
